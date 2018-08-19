@@ -1,0 +1,12 @@
+group 'de.colhapa'
+version '1.0-SNAPSHOT'
+
+allprojects {
+    ext {
+        lombokVersion = "1.18.2"
+    }
+}
+
+task backendTests() {
+    dependsOn tasks.getByPath("backend:test")
+}

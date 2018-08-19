@@ -1,0 +1,26 @@
+# Compiled class file
+*.class
+build
+out
+.gradle
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Log file
+*.log
+
+# general
+package-lock.json
+.git-authors
+
+# MISC #
+.DS_Store
+*.kdbx.lock
+
